@@ -1,6 +1,17 @@
 # docker-test
 
+multi container deployment : postgrace and pgadmin in two different container
+
+service : service discovery for internal services
+
+one postgres database which apps can connect to : pgadmin and postgracedb is connected 
+
+instance : 2 ec2 instance 
+
+load balancer: 2 ec2 instance configured for elb 
+
 docker compose git link :- https://github.com/ANISHSAJIKUMAR/docker_project2.git
+
 Environments
 This Compose file contains the following environment variables:
 
